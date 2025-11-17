@@ -1,0 +1,1 @@
+Healthcare Appointment BRD: Create an online appointment scheduling system allowing patients to book, reschedule, and cancel appointments with clinicians. Provide reminders (SMS/email), integrate insurance eligibility checks, and support multi-provider clinics. Priority: reduce no-shows by 20%.

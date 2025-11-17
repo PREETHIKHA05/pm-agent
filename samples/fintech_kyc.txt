@@ -1,0 +1,1 @@
+Fintech KYC BRD: Build a KYC onboarding flow to collect user identity documents, run automated document verification, perform liveness checks, and store verification results. Integrate with 3rd-party identity provider and allow manual review for flagging. Target: 10k signups/month. Compliance: retain documents for 7 years and provide audit logs.

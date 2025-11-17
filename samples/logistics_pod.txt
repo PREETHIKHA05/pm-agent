@@ -1,0 +1,1 @@
+Logistics PoD BRD: We need a proof-of-delivery mobile feature for drivers to capture signatures, photos of delivered packages, and automatically update customer status. Support offline mode, retry uploads, and integrate with existing tracking API. Expected volume: 5k deliveries/day. Security: ensure photos are associated with the correct delivery ID.

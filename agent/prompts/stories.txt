@@ -1,0 +1,46 @@
+Create granular user stories from the BUSINESS_REQUIREMENT and ANSWERS.
+Prefer multiple small stories over one big story. Include NFRs if relevant.
+
+Output JSON strictly matching this schema (no prose, no backticks):
+{
+  "epics": [
+    {
+      "name": "string",
+      "description": "string",
+      "stories": [
+        {
+          "id": "US-###",
+          "as_a": "role",
+          "i_want": "capability",
+          "so_that": "benefit",
+          "acceptance_criteria": [
+            "Given ... When ... Then ..."
+          ],
+          "priority": "Must|Should|Could",
+          "dependencies": ["US-###","ext:API-X"],
+          "notes": "short notes if any"
+        }
+      ]
+    }
+  ],
+  "nfrs": [
+    {"name":"Security","requirement":"..."},
+    {"name":"Performance","requirement":"..."}
+  ]
+}
+
+Constraints:
+- 1–3 epics. 5–12 stories total across epics.
+- Acceptance criteria must be testable (Gherkin-style).
+- Use the provided answers to resolve ambiguity; if still unknown, mark as "TBD".
+- Keep each story focused on ONE user goal.
+
+BUSINESS_REQUIREMENT:
+<<<
+{BRD_TEXT}
+>>>
+
+ANSWERS_AS_JSON:
+<<<
+{ANSWERS_JSON}
+>>>

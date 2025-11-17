@@ -1,0 +1,30 @@
+You will read a business requirement and produce clarifying questions.
+Goal: ensure we can write implementation-ready user stories.
+
+Output strictly as a JSON object ONLY (no backticks, no prose):
+{
+  "meta": {
+    "domain_guess": "<one of: logistics|fintech|healthcare|generic>",
+    "primary_actor": "<role>",
+    "affected_systems": ["<system1>", "<system2>"]
+  },
+  "questions": [
+    {"id":"Q1","type":"scope","text":"..."},
+    {"id":"Q2","type":"actor","text":"..."},
+    {"id":"Q3","type":"data","text":"..."},
+    {"id":"Q4","type":"edge_case","text":"..."},
+    {"id":"Q5","type":"security","text":"..."},
+    {"id":"Q6","type":"kpi","text":"..."},
+    {"id":"Q7","type":"integration","text":"..."},
+    {"id":"Q8","type":"acceptance","text":"..."}
+  ]
+}
+Rules:
+- Exactly 8 questions.
+- Keep each question ≤ 20 words.
+- Use the most likely domain.
+
+BUSINESS_REQUIREMENT:
+<<<
+{BRD_TEXT}
+>>>

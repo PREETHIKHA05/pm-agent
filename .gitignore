@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pydantic & testing
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+agent/.env
+
+# Database files
+pm_agent.db
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+app.log
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Misc
+pip-wheel-metadata/
+
+# Keep samples and outputs in repo
+# samples/
+# outputs/
