@@ -1,10 +1,1 @@
-[
-  "Which identity documents are accepted (passport, national ID, driver's license)?",
-  "Should the system support OCR-based extraction or only full-document images?",
-  "What are the acceptance criteria for liveness checks (video, selfie + challenge)?",
-  "What thresholds or vendor results require manual review?",
-  "How long must we retain documents for compliance, and where should they be stored?",
-  "Which identity verification providers should be supported or integrated?",
-  "What are the supported countries and localization requirements?",
-  "What audit logs and user consent records are required for compliance?"
-]
+[]

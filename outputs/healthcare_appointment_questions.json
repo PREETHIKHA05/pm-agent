@@ -1,10 +1,1 @@
-[
-  "Which appointment types and durations should be supported (e.g., 15/30/60 minutes)?",
-  "Should patients be able to choose specific clinicians or only by specialty?",
-  "What reminder channels (SMS, email) and timing should be configurable?",
-  "How should cancellations and rescheduling affect provider availability and waitlists?",
-  "Is insurance eligibility verification required at booking or at check-in?",
-  "What time zones and clinic hours logic must be supported (multi-location clinics)?",
-  "Should the system support telehealth/video appointments and provider integrations?",
-  "Are there data retention or privacy constraints for patient contact information?"
-]
+[]

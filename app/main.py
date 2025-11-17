@@ -39,6 +39,10 @@ def init_db():
     conn.close()
 
 
+# Ensure DB/tables exist before any UI code runs
+init_db()
+
+
 def save_run(brd_text, clarify_meta, questions_json, answers_json, stories_json):
     conn = sqlite3.connect("pm_agent.db", timeout=10.0)
     try:
@@ -236,4 +240,4 @@ with tab3:
                     with st.expander("📋 Debug Info"):
                         st.write(f"**Error Details:**\n{st.session_state.last_error}")
 
-init_db()
+# Database already initialized above

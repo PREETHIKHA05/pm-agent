@@ -1,10 +1,1 @@
-[
-  "What are the mandatory fields for the delivery record (e.g., recipient name, signature, photo)?",
-  "Should the mobile app verify the package ID against the central tracking system before capturing proof?",
-  "What image resolution and file formats are acceptable for stored photos?",
-  "How should offline captures be synchronized when the device regains connectivity?",
-  "What retry/backoff policy should be used for failed uploads?",
-  "Which existing tracking API endpoints must be called and what authentication is required?",
-  "What permissions and authentication are required for drivers to access delivery records?",
-  "Are there any regulatory or retention requirements for storing delivery photos and signatures?"
-]
+[]
